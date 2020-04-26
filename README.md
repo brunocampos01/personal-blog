@@ -44,3 +44,43 @@ Copyright 2017-present [George Cushen](https://georgecushen.com).
 Released under the [MIT](https://github.com/sourcethemes/academic-kickstart/blob/master/LICENSE.md) license.
 
 [![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/academic-kickstart/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+
+
+## Submodules
+- Add other repository in blog
+```
+git submodule add <url/do/repositório> <destino/do/submódulo>
+```
+
+#### Cloning a repository that contains submodules
+```
+git clone --recursive  [URL to Git repo]
+git submodule update --init --recursive
+git submodule update --remote # update submodules
+```
+
+#### Pulling with submodules
+ ```
+ # pull all changes in the repo including changes in the submodules
+git pull --recurse-submodules
+
+# pull all changes for the submodules
+git submodule update --remote
+```
+
+#### 
+
+```
+# add submodule and define the master branch as the one you want to track
+git submodule add -b master [URL to Git repo] 
+git submodule init 
+```
+https://www.vogella.com/tutorials/GitSubmodules/article.html
+
+
+## TODO
+- [ ] add submodules devops
+- [ ] CI github execute transformation ipynb to md
+- [ ] add submodules machine learning algoritms
+- [ ] add submodules devops
+- [ ] add submodules devops
