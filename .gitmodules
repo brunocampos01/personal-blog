@@ -2,6 +2,9 @@
 	path = themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
 
-[submodule "post/devops"]
-	path = post
-	url = https://github.com/brunocampos01/devops.git
+# [submodule "post/devops"]
+# 	path = post
+# 	url = https://github.com/brunocampos01/devops.git
+[submodule "devops"]
+	path = devops
+	url = https://github.com/brunocampos01/devops
