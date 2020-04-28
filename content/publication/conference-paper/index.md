@@ -1,5 +1,8 @@
 ---
 title: "An essssssssssssssssssssssss"
+subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
+summary: summary
+
 authors:
 - admin
 - Robert Ford

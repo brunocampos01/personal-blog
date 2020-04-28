@@ -78,9 +78,30 @@ git submodule init
 https://www.vogella.com/tutorials/GitSubmodules/article.html
 
 
+
+
+#### Remove submodule
+
+
+To remove a submodule you need to:
+
+Delete the relevant section from the .gitmodules file.
+Stage the .gitmodules changes:
+git add .gitmodules
+Delete the relevant section from .git/config.
+Remove the submodule files from the working tree and index:
+git rm --cached path_to_submodule (no trailing slash).
+Remove the submodule's .git directory:
+rm -rf .git/modules/path_to_submodule
+Commit the changes:
+git commit -m "Removed submodule <name>"
+Delete the now untracked submodule files:
+rm -rf path_to_submodule
+
+
 ## TODO
 - [ ] add submodules devops
 - [ ] CI github execute transformation ipynb to md
 - [ ] add submodules machine learning algoritms
 - [ ] add submodules devops
-- [ ] add submodules devops
+- [ ] about me vai ser assim: https://alison.rbind.io/contact/
