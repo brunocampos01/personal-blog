@@ -75,3 +75,6 @@ I've always been enthusiastic on learning about computation. For this reason, I 
 
 I am currently focused on creating and developing Big Data solutions with a focus on performance and scale using DevOps culture.
 I also worked on artificial intelligence projects where I developed knowledge of analytical techniques how, information retrieval, machine learning, time series.
+
+- Singularidade tecnológica
+- computador consciente 

@@ -105,3 +105,7 @@ rm -rf path_to_submodule
 - [ ] add submodules machine learning algoritms
 - [ ] add submodules devops
 - [ ] about me vai ser assim: https://alison.rbind.io/contact/
+- [ ] disqus https://sourcethemes.com/academic/docs/customization/
+- [ ] google tag manager https://sourcethemes.com/academic/docs/customization/
+- [ ] google analytics https://sourcethemes.com/academic/docs/customization/
+- [x] footer 
