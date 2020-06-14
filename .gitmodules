@@ -1,8 +1,13 @@
 [submodule "themes/academic"]
 	path = themes/academic
 	url = https://github.com/gcushen/hugo-academic.git
-	
+
 #content/post/devops
 [submodule "content/post/devops"]
 	path = content/post/devops
 	url = https://github.com/brunocampos01/devops
+
+#content/post/
+[submodule "content/post/learning-algoritms"]
+	path = content/post/learning-algoritms
+	url = https://github.com/brunocampos01/learning-algoritms
